@@ -39,4 +39,4 @@ Contains config files for,
 - Window Theme - `Nordic`
 
 All shadows, blurs and opacity tweaks done with [`compton`](https://github.com/chjj/compton).
-And, Thanks to all brilliant people who created these repos.
+And, Thanks to all the brilliant people who created these repos.

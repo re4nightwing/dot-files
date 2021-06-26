@@ -40,5 +40,6 @@ Contains config files for,
 
 All shadows, blurs and opacity tweaks done with [`compton`](https://github.com/chjj/compton).
 
-Wallpapers - [`Samurai Cheems`](https://wallhaven.cc/w/l3zyg2), [`Screen Wallpaper`](https://wallhaven.cc/w/8oeg3j)
-And, Thanks to all brilliant people who created these repos.
+- Wallpapers - [`Samurai Cheems`](https://wallhaven.cc/w/l3zyg2), [`Screen Wallpaper`](https://wallhaven.cc/w/8oeg3j)
+
+And, Thanks to all the brilliant people who created these repos.

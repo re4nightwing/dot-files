@@ -11,6 +11,7 @@ Contains config files for,
 - `Rofi`
 - `Compton` 
 - `Dunst`
+- `fzf`
 
 ### Screenshots
 ![some ss here...xd](https://i.imgur.com/4h3xU9r.png)

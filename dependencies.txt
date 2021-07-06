@@ -1,0 +1,13 @@
+sudo apt install i3-wm i3lock i3status i3blocks dmenu terminator ubuntu-restricted-extras gnome-tweaks openjdk-11-jdk default-jre python3-pip rofi feh
+sudo apt-get install -y fonts-font-awesome
+sudo apt install compton neofetch git lxappearance grabc
+sudo apt install autoconf gcc make pkg-config libpam0g-dev libcairo2-dev libfontconfig1-dev libxcb-composite0-dev libev-dev libx11-xcb-dev libxcb-xkb-dev libxcb-xinerama0-dev libxcb-randr0-dev libxcb-image0-dev libxcb-util-dev libxcb-xrm-dev libxkbcommon-dev libxkbcommon-x11-dev libjpeg-dev
+sudo apt install libxcb1-dev libxcb-keysyms1-dev libpango1.0-dev libxcb-util0-dev libxcb-icccm4-dev libyajl-dev libstartup-notification0-dev libxcb-randr0-dev libev-dev libxcb-cursor-dev libxcb-xinerama0-dev libxcb-xkb-dev libxkbcommon-dev libxkbcommon-x11-dev autoconf xutils-dev libtool automake
+sudo apt-get install build-essential libboost-all-dev cmake flex
+sudo apt install cargo
+sudo apt-get install cmake cmake-data libcairo2-dev libxcb1-dev libxcb-ewmh-dev libxcb-icccm4-dev libxcb-image0-dev libxcb-randr0-dev libxcb-util0-dev libxcb-xkb-dev pkg-config python3-xcbgen xcb-proto libxcb-xrm-dev i3-wm libasound2-dev libmpdclient-dev libiw-dev libcurl4-openssl-dev libpulse-dev
+sudo apt install libjsoncpp-dev
+sudo apt-get install python3-sphinx
+sudo apt install unifont xfonts-100dpi xfonts-75dpi xfonts-cyrillic font-manager libncurses5-dev libncursesw5-dev libncurses5
+sudo apt install fuse libfuse2 git python3-pip ack-grep -y
+sudo apt install curl xsel nodejs npm ranger zsh dunst cmatrix xclip byzanz maim powertop tlp tlpui fzf ripgrep universal-ctags silversearcher-ag fd-find

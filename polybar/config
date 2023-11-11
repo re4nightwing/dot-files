@@ -60,7 +60,7 @@ font-5 = Font Awesome 5 Brands:pixelsize=12;2
 
 modules-left = i3
 modules-center = xwindow
-modules-right = filesystem pulseaudio memory cpu wlan eth battery temperature date powermenu
+modules-right = filesystem pulseaudio memory cpu wlan eth battery temperature date
 
 separator = ""
 
@@ -112,7 +112,7 @@ interval = 25
 
 mount-0 = /
 
-label-mounted =  %free%
+label-mounted = 󰋊 %free%
 label-mounted-underline = #2aa889
 label-mounted-background = ${colors.background-alt}
 label-mounted-padding = 1
@@ -151,11 +151,15 @@ wrapping-scroll = false
 ;pin-workspaces = true
 
 ws-icon-0 = 1;1.
-ws-icon-1 = 2;2.
+ws-icon-1 = 2;2.
 ws-icon-2 = 3;3.
-ws-icon-3 = 4;4.
-ws-icon-4 = 5;5.
-ws-icon-5 = 6;6.
+ws-icon-3 = 4;4.
+ws-icon-4 = 5;5.󰓇
+ws-icon-5 = 6;6.󰒰
+ws-icon-6 = 7;7.󰙯
+ws-icon-7 = 8;8.󰣀
+ws-icon-8 = 9;9.
+ws-icon-9 = 10;10.
 
 label-mode-padding = 2
 label-mode-foreground = #000
@@ -224,7 +228,7 @@ label-urgent-padding = 2
 [module/cpu]
 type = internal/cpu
 interval = 2
-format-prefix = "閭 "
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-background = ${colors.background-alt}
 format-underline = #2aa889
@@ -234,7 +238,7 @@ label = %percentage:2%%
 [module/memory]
 type = internal/memory
 interval = 2
-format-prefix = "塞 "
+format-prefix = "󰑭 "
 format-prefix-foreground = ${colors.foreground-alt}
 format-background = ${colors.background-alt}
 format-underline = #2aa889
@@ -258,11 +262,11 @@ format-disconnected =
 ;label-disconnected = %ifname% disconnected
 ;label-disconnected-foreground = ${colors.foreground-alt}
 
-ramp-signal-0 = "睊 "
-ramp-signal-1 = "直 "
-ramp-signal-2 = "直 "
-ramp-signal-3 = "直 "
-ramp-signal-4 = " "
+ramp-signal-0 = "󰤭 "
+ramp-signal-1 = "󰤟 "
+ramp-signal-2 = "󰤢 "
+ramp-signal-3 = "󰤥 "
+ramp-signal-4 = "󰤨 "
 ramp-signal-foreground = ${colors.foreground-alt}
 
 [module/eth]
@@ -271,7 +275,7 @@ interface = enp7s0
 interval = 3.0
 
 format-connected-underline = #2aa889
-format-connected-prefix = " "
+format-connected-prefix = "󰈀 "
 format-connected-prefix-foreground = ${colors.foreground-alt}
 format-connected-background = ${colors.background-alt}
 format-connected-padding = 1
@@ -293,7 +297,7 @@ date-alt = " %Y-%m-%d"
 time = %H:%M
 time-alt = %H:%M:%S
 
-format-prefix = " "
+format-prefix = " "
 format-prefix-foreground = ${colors.foreground-alt}
 format-background = ${colors.background-alt}
 format-padding = 1
@@ -307,13 +311,13 @@ label = %date% %time%
 type = internal/pulseaudio
 
 format-volume = <label-volume> <bar-volume>
-label-volume = 墳 %percentage%%
+label-volume = 󰕾 %percentage%%
 label-volume-foreground = ${root.foreground}
 format-volume-background = ${colors.background-alt}
 format-volume-underline = #2aa889
 format-volume-padding = 1 
 
-label-muted = 婢 muted
+label-muted = 󰖁 muted
 label-muted-foreground = #666
 
 bar-volume-width = 10
@@ -377,26 +381,26 @@ format-discharging = <animation-discharging> <label-discharging>
 format-discharging-underline = #d26937
 format-discharging-padding = 1
 
-format-full-prefix = " "
+format-full-prefix = "󱟢 "
 format-full-prefix-foreground = ${colors.foreground-alt}
 format-full-background = ${self.format-charging-background}
 format-full-underline = ${self.format-charging-underline}
 format-full-padding = 1
 
-ramp-capacity-0 = 
-ramp-capacity-1 = 
-ramp-capacity-2 = 
+ramp-capacity-0 = 󱊡
+ramp-capacity-1 = 󱊢
+ramp-capacity-2 = 󱊣
 ramp-capacity-foreground = ${colors.foreground-alt}
 
-animation-charging-0 = 
-animation-charging-1 = 
-animation-charging-2 = 
+animation-charging-0 = 󱊡
+animation-charging-1 = 󱊢
+animation-charging-2 = 󱊣
 animation-charging-foreground = ${colors.foreground-alt}
 animation-charging-framerate = 750
 
-animation-discharging-0 = 
-animation-discharging-1 = 
-animation-discharging-2 = 
+animation-discharging-0 = 󱊣
+animation-discharging-1 = 󱊢
+animation-discharging-2 = 󱊡
 animation-discharging-foreground = ${colors.foreground-alt}
 animation-discharging-framerate = 750
 
@@ -420,7 +424,7 @@ label-warn-foreground = ${colors.foreground}
 
 ramp-0 = 
 ramp-1 = 
-ramp-2 = 
+ramp-2 = 
 ramp-foreground = ${colors.foreground-alt}
 
 [module/powermenu]
@@ -430,12 +434,12 @@ expand-right = true
 
 format-spacing = 1
 
-label-open = 襤
+label-open = ⏻
 label-open-foreground = #ff0000
 label-open-background = #4D9D0000
 label-open-underline =  #d90000
 label-open-padding = 1
-label-close = ﰸ cancel
+label-close = 󰜺 cancel
 label-close-foreground = #ff0000
 label-close-background = #4DC0C0C0
 label-close-underline = #d90000

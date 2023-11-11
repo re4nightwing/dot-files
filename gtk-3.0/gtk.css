@@ -1,0 +1,8 @@
+.thunar .standard-view .view {
+	background-image: -gtk-scaled(url("backimage.jpg"), url("backimage@2.jpg"));
+	background-repeat: no-repeat;
+	background-position: bottom right;
+	background-size: cover;
+}
+.thunar .standard-view .view * { background-image: none; }
+.thunar .standard-view .view * { background: transparent; color: white; }

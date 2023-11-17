@@ -101,8 +101,10 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias vi='nvim'
 alias vim='nvim'
-alias cp='cp -i'
-alias mv='mv -i'
-alias neofetch="neofetch --ascii /home/re4/.config/neofetch/catto.txt"
+alias rview='nvim'
+alias neofetch="neofetch --ascii /home/re4/.config/neofetch/catto.txt --ascii_colors 1 2 6 4 5 3"
+alias ssm='sshmenu'
 
 /home/re4/.config/scripts/ansi-ghosts.sh
+export TERM=xterm-256color
+export PATH=$PATH:/home/re4/.spicetify:/home/re4/.local/bin
